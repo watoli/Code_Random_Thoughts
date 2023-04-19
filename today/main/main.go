@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func search(nums []int, target int) int {
 	start := 0
 	end := len(nums) - 1
@@ -19,6 +17,21 @@ func search(nums []int, target int) int {
 	}
 }
 
-func main() {
-	fmt.Println("Hello World")
+func removeElement(nums []int, val int) int {
+	left := 0
+	right := len(nums) - 1
+	for left <= right {
+		for left <= right && nums[left] != val {
+			left++
+		}
+		for left <= right && nums[right] == val {
+			right--
+		}
+		if left < right {
+			nums[left] = nums[right]
+			left++
+			right--
+		}
+	}
+	return left
 }
