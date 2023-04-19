@@ -4,10 +4,11 @@
 name: Go
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
 
 jobs:
 
@@ -32,7 +33,7 @@ jobs:
     - name: Output
       run: |
         cd ./today/main
-        go run . > ../log/today.log
+        go test -v ./... >> ../log/today.log
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
