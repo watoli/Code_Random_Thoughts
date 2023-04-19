@@ -34,7 +34,7 @@ jobs:
 #          cd "./day${{ steps.set-date.outputs.date }}/main"
 #          go build -o ../main .
 
-      - name: Output
+      - name: Test
         run: |
           cd "./day${{ steps.set-date.outputs.date }}/main"
           go test -v ./... >> ../log/today.log
