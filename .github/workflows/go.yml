@@ -15,28 +15,32 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.19
+      - name: Set date
+        id: set-date
+        run: echo "::set-output name=date::$(date +%m%d)"
 
-    - name: Create log directory
-      run: mkdir -p ./today/log
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
 
-    - name: Build
-      run: |
-        cd ./today/main
-        go build -o ../main .
+      - name: Create log directory
+        run: mkdir -p "./day${{ steps.set-date.outputs.date }}/log"
 
-    - name: Output
-      run: |
-        cd ./today/main
-        go test -v ./... >> ../log/today.log
+      - name: Build
+        run: |
+          cd "./day${{ steps.set-date.outputs.date }}/main"
+          go build -o ../main .
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: today.log
-        path: ./today/log/today.log
+      - name: Output
+        run: |
+          cd "./day${{ steps.set-date.outputs.date }}/main"
+          go test -v ./... >> ../log/today.log
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: today.log
+          path: ./day${{ steps.set-date.outputs.date }}/log/day${{ steps.set-date.outputs.date }}.log
