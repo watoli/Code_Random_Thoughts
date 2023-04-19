@@ -29,10 +29,10 @@ jobs:
       - name: Create log directory
         run: mkdir -p "./day${{ steps.set-date.outputs.date }}/log"
 
-      - name: Build
-        run: |
-          cd "./day${{ steps.set-date.outputs.date }}/main"
-          go build -o ../main .
+#      - name: Build
+#        run: |
+#          cd "./day${{ steps.set-date.outputs.date }}/main"
+#          go build -o ../main .
 
       - name: Output
         run: |
