@@ -42,5 +42,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: today.log
+          name: ${{ steps.set-date.outputs.date }}.log
           path: ./day${{ steps.set-date.outputs.date }}/log/day${{ steps.set-date.outputs.date }}.log
