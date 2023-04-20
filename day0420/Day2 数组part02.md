@@ -80,3 +80,75 @@ func minSubArrayLen(target int, nums []int) int {
 	return res + 1
 }
 ```
+
+## 59. 螺旋矩阵
+
+1. 模拟法
+```go
+package main
+import "fmt"
+func generateMatrix(n int) [][]int {
+	/*
+	*****
+	*****
+	*****
+	*****
+	*****
+	 */
+	res := make([][]int, n, n)
+	for i := 0; i < len(res); i++ {
+		res[i] = make([]int, n, n)
+	}
+	num := 1
+	x, y := 0, 0
+	length := n
+	squ := n * n
+	for num <= squ {
+		for i := 0; i < length; i++ {
+			res[x][y] = num
+			num++
+			y++
+		}
+		if num > squ {
+			return res
+		}
+		y--
+		x++
+		length--
+		for i := 0; i < length; i++ {
+			res[x][y] = num
+			num++
+			x++
+		}
+		if num > squ {
+			return res
+		}
+		x--
+		y--
+		for i := 0; i < length; i++ {
+			res[x][y] = num
+			num++
+			y--
+		}
+		if num > squ {
+			return res
+		}
+		x--
+		y++
+		length--
+		fmt.Println(res)
+		for i := 0; i < length; i++ {
+			res[x][y] = num
+			num++
+			x--
+		}
+		if num > squ {
+			return res
+		}
+		x++
+		y++
+	}
+	return res
+
+}
+```
