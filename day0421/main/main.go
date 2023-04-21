@@ -1,50 +1,9 @@
-# Day3 链表part01
-
-## 203. 移除链表元素
-
-1. 迭代方法，写的比较繁琐
-```go
 package main
 
-import . "Code_Random_Thoughts/mypkg"
-
-func removeElements(head *ListNode, val int) *ListNode {
-	if head == nil {
-		return head
-	}
-	//res := new(ListNode)
-	curNode := head
-	for curNode.Val == val {
-		curNode = curNode.Next
-		if curNode == nil {
-			return nil
-		}
-
-	}
-	newHead := curNode
-	for curNode.Next != nil {
-		preNode := curNode
-		curNode = curNode.Next
-		for curNode.Val == val {
-			curNode = curNode.Next
-			if curNode == nil {
-				preNode.Next = nil
-				return newHead
-			}
-		}
-		preNode.Next = curNode
-	}
-
-	return newHead
-}
-
-```
-
-2. 精简后的迭代写法
-```go
-package main
-
-import . "Code_Random_Thoughts/mypkg"
+import (
+	. "Code_Random_Thoughts/mypkg"
+	"fmt"
+)
 
 func removeElements(head *ListNode, val int) *ListNode {
 	res := new(ListNode)
@@ -60,13 +19,7 @@ func removeElements(head *ListNode, val int) *ListNode {
 	}
 	return res.Next
 }
-```
 
-## 707. 设计链表
-> 上一道题没意识到使用了虚拟头节点，结果这道题吃大亏了  
-> 虚拟头节点YY DS!
-```go
-package main
 type MyLinkedList struct {
 	head   *Node
 	tail   *Node
@@ -170,34 +123,25 @@ func (this *MyLinkedList) DeleteAtIndex(index int) {
 	this.length--
 
 }
-```
-## 206. 反转链表
-1. 迭代解法
-```go
-package main
-import . "Code_Random_Thoughts/mypkg"
-func reverseList(head *ListNode) *ListNode {
-	if head == nil {
-		return head
-	}
-	cur := head.Next
-	head.Next = nil
-	pre := head
-	for cur != nil {
-		next := cur.Next
-		cur.Next = pre
-		pre = cur
-		cur = next
-	}
-	return pre
-}
-```
 
-2. 递归解法
+/**
+ * Your MyLinkedList object will be instantiated and called as such:
+ * obj := Constructor();
+ * param_1 := obj.Get(index);
+ * obj.AddAtHead(val);
+ * obj.AddAtTail(val);
+ * obj.AddAtIndex(index,val);
+ * obj.DeleteAtIndex(index);
+ */
 
-```go
-package main
-import . "Code_Random_Thoughts/mypkg"
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+
 func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
@@ -207,4 +151,8 @@ func reverseList(head *ListNode) *ListNode {
 	head.Next = nil
 	return newHead
 }
-```
+
+func main() {
+	ptr := &Node{}
+	fmt.Println(ptr)
+}
