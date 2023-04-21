@@ -8,3 +8,4 @@
 - day 1 任务以及具体安排：[第一章 数组part01](https://docs.qq.com/doc/DUG9UR2ZUc3BjRUdY)
 - day 2 任务以及具体安排：[第一章 数组part02](https://docs.qq.com/doc/DUGRwWXNOVEpyaVpG)	
 - day 3 任务以及具体安排：[第二章 链表part01](https://docs.qq.com/doc/DUGdqYWNYeGhlaVR6)
+- day 4 任务以及具体安排：[第二章 链表part02](https://docs.qq.com/doc/DUFNjYUxYRHRVWklp)
