@@ -12,4 +12,5 @@
 - day 5 周日休息 
 - day 6 任务以及具体安排：[第三章 哈希表part01](https://docs.qq.com/doc/DUEtFSGdreWRuR2p4)
 - day 7 任务以及具体安排：[第三章 哈希表part02](https://docs.qq.com/doc/DUElCb1NyTVpXa0Jj)
+- day 8 任务以及具体安排：[第四章 字符串part01](https://docs.qq.com/doc/DUGdsY2JFaFhDRVZH)
 

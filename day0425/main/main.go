@@ -1,9 +1,9 @@
-# Day8字符串 part01
+package main
 
-## 454. 四数相加 II
+import (
+	"sort"
+)
 
-1. 哈希表，和两数相加本质上没区别，干就完了！
-```go
 func fourSumCount(nums1 []int, nums2 []int, nums3 []int, nums4 []int) (res int) {
 	mapAB := make(map[int]int)
 	for i := 0; i < len(nums1); i++ {
@@ -24,11 +24,7 @@ func fourSumCount(nums1 []int, nums2 []int, nums3 []int, nums4 []int) (res int) 
 	}
 	return
 }
-```
 
-## 383. 赎金信
-1. 哈希，也可以用数组去做，空间会更节省一些
-```go
 func canConstruct(ransomNote string, magazine string) bool {
 	mapMag := make(map[byte]int)
 	for i := 0; i < len(magazine); i++ {
@@ -49,11 +45,7 @@ func canConstruct(ransomNote string, magazine string) bool {
 	}
 	return true
 }
-```
 
-## 15. 三数之和
-1. 没想到可以用双指针，好困啊，顶不住了要
-```go
 func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 	left := 0
@@ -91,11 +83,7 @@ func threeSum(nums []int) [][]int {
 	}
 	return res
 }
-```
 
-## 18. 四数之和
-1. 双指针，没什么好说的，和三数之和一模一样
-```go
 func fourSum(nums []int, target int) [][]int {
 	sort.Ints(nums)
 	left := 0
@@ -142,4 +130,3 @@ func fourSum(nums []int, target int) [][]int {
 	}
 	return res
 }
-```
