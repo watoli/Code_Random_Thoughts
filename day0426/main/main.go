@@ -1,19 +1,16 @@
-# Day8字符串part01
+package main
 
-## 344. 反转字符串
-1. 直接反转
-```go
+import (
+	"fmt"
+)
+
 func reverseString(s []byte) {
 	lenS := len(s)
 	for i := 0; i < lenS/2; i++ {
 		s[i], s[lenS-1-i] = s[lenS-1-i], s[i]
 	}
 }
-```
 
-## 541. 反转字符串 II
-2. 还是直接反转，其中遍历是i+=2*k能够极大缩短时间，注意技巧
-```go
 func reverseStr(s string, k int) string {
 	resByte := []byte(s)
 
@@ -27,24 +24,7 @@ func reverseStr(s string, k int) string {
 	}
 	return string(resByte)
 }
-```
 
-## 剑指 Offer 05. 替换空格
-1. 添加元素，空间复杂度为O(n)
-```go
-func replaceSpace(s string) (res string) {
-	for i := 0; i < len(s); i++ {
-		if s[i] == ' ' {
-			res += "%20"
-		} else {
-			res += fmt.Sprintf("%c", s[i])
-		}
-	}
-	return
-}
-```
-2. 双指针法
-```go
 func replaceSpace(s string) string {
 	nSpace := 0
 	for i := 0; i < len(s); i++ {
@@ -71,11 +51,7 @@ func replaceSpace(s string) string {
 	}
 	return fmt.Sprintf("%s", res)
 }
-```
 
-## 151. 反转字符串中的单词
-1. 和反转字符串思路类似,需要优化删除空格的算法
-```go
 func reverseWords(s string) string {
 	sliceS := make([][]byte, 0)
 	tmpS := make([]byte, 0)
@@ -103,25 +79,7 @@ func reverseWords(s string) string {
 	}
 	return res
 }
-```
 
-## 剑指 Offer 58 - II. 左旋转字符串
-1. 字符串拼接
-```go
-func reverseLeftWords(s string, n int) string {
-	res := make([]byte, len(s))
-	lenS := len(s)
-	for i := 0; i < n; i++ {
-		res[lenS-n+i] = s[i]
-	}
-	for i := n; i < lenS; i++ {
-		res[i-n] = s[i]
-	}
-	return fmt.Sprintf("%s", res)
-}
-```
-2. 左旋
-```go
 func reverseLeftWords(s string, n int) string {
 	res := []byte(s)
 	reverseString(res[:n])
@@ -129,4 +87,3 @@ func reverseLeftWords(s string, n int) string {
 	reverseString(res)
 	return fmt.Sprintf("%s", res)
 }
-```
