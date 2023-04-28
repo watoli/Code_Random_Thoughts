@@ -110,3 +110,31 @@ func repeatedSubstringPattern(s string) bool {
 	return false
 }
 ```
+
+2. KMP
+```go
+func repeatedSubstringPattern(s string) bool {
+	if len(s) == 1 || len(s) == 0 {
+		return false
+	}
+	j := 0
+	lenS := len(s)
+	next := make([]int, lenS)
+	next[0] = j
+	for i := 1; i < lenS; i++ {
+		for j > 0 && s[j] != s[i] {
+			j = next[j-1]
+		}
+		if s[j] == s[i] {
+			j++
+		}
+		next[i] = j
+	}
+	if next[lenS-1] > 0 && lenS%(lenS-next[lenS-1]) == 0 {
+		return true
+	}
+	return false
+
+}
+
+```
