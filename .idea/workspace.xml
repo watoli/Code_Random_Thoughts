@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day10 (2/2)">
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day11 (2/2)">
+      <change afterPath="$PROJECT_DIR$/day0431/Day13 栈与队列part03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0431/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0429/Day11 栈与队列part02.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0429/Day11 栈与队列part02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0429/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day0429/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0430/Day12 栈与队列part03.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0430/main/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go 构建.go build Code_Random_Thoughts/day0422/main">
+  <component name="RunManager" selected="Go 构建.go build Code_Random_Thoughts/day0430/main">
     <configuration name="go build Code_Random_Thoughts/day0422/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Code_Random_Thoughts" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,12 +78,29 @@
       <filePath value="$PROJECT_DIR$/day0422/main/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Code_Random_Thoughts/day0430/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Code_Random_Thoughts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Code_Random_Thoughts/day0430/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day0430/main/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Code_Random_Thoughts" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/day0421/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Code_Random_Thoughts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day0430/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -95,6 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build Code_Random_Thoughts/day0430/main" />
+        <item itemvalue="Go 构建.go build main.go (2)" />
         <item itemvalue="Go 构建.go build Code_Random_Thoughts/day0422/main" />
         <item itemvalue="Go 构建.go build main.go (1)" />
       </list>
@@ -124,7 +145,7 @@
       <workItem from="1682415005805" duration="47000" />
       <workItem from="1682439495119" duration="8906000" />
       <workItem from="1682495390597" duration="9365000" />
-      <workItem from="1682582229201" duration="33112000" />
+      <workItem from="1682582229201" duration="48194000" />
     </task>
     <task id="LOCAL-00001" summary="初始化文件结构">
       <created>1681889517373</created>
@@ -308,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682689158544</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Day11 (2/2)">
+      <created>1682759354219</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1682759354219</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +371,8 @@
     <MESSAGE value="Day9(2/2)" />
     <MESSAGE value="Day9 更新KMP" />
     <MESSAGE value="Day10 (2/2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day10 (2/2)" />
+    <MESSAGE value="Day11 (2/2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day11 (2/2)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
