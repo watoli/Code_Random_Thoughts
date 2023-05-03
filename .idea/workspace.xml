@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day14 (1/1)">
-      <change afterPath="$PROJECT_DIR$/Design/AbstractFactory/AbstractFactory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/AbstractFactory/AbstrctFactory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/AbstractFactory/Note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Facade/Facade.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Facade/Facade_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Simple/Simple.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Simple/Simple_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design/Bridge/Bridge.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design/Bridge/Bridge_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design/Builder/Builder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design/Builder/Builder_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0503/Day15二叉树part02.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0503/Day15二叉树part02.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -47,7 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
+    "DefaultGoTemplateProperty": "Go Application",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
@@ -76,22 +76,37 @@
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 测试.Facade_test.go">
-    <configuration name="go build Code_Random_Thoughts/day0430/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 测试.Bridge_test.go">
+    <configuration name="Bridge_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Code_Random_Thoughts" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="Code_Random_Thoughts/day0430/main" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day0430/main/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Code_Random_Thoughts" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/Design/Bridge" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day0430/main/main.go" />
+      <filePath value="$PROJECT_DIR$/Design/Bridge/Bridge_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Builder_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Code_Random_Thoughts" />
+      <working_directory value="$PROJECT_DIR$/Design/Builder" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Design/Builder/Builder_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Code_Random_Thoughts/Design/Bridge 中的 TestCircle_Draw" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Code_Random_Thoughts" />
+      <working_directory value="$PROJECT_DIR$/Design/Bridge" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="Code_Random_Thoughts/Design/Bridge" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCircle_Draw\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Facade_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -114,23 +129,13 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="factory_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Code_Random_Thoughts" />
-      <working_directory value="$PROJECT_DIR$/Design/Factory" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Design/Factory/factory_test.go" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 测试.Bridge_test.go" />
+        <item itemvalue="Go 测试.Code_Random_Thoughts/Design/Bridge 中的 TestCircle_Draw" />
+        <item itemvalue="Go 测试.Builder_test.go" />
         <item itemvalue="Go 测试.Facade_test.go" />
         <item itemvalue="Go 测试.abstractFactory_test.go" />
-        <item itemvalue="Go 测试.factory_test.go" />
-        <item itemvalue="Go 构建.go build Code_Random_Thoughts/day0430/main" />
-        <item itemvalue="Go 构建.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +163,7 @@
       <workItem from="1682415005805" duration="47000" />
       <workItem from="1682439495119" duration="8906000" />
       <workItem from="1682495390597" duration="9365000" />
-      <workItem from="1682582229201" duration="73726000" />
+      <workItem from="1682582229201" duration="79038000" />
     </task>
     <task id="LOCAL-00001" summary="初始化文件结构">
       <created>1681889517373</created>
@@ -377,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683004102464</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Day14 (1/1)">
+      <created>1683030852886</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683030852886</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

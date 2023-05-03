@@ -19,7 +19,7 @@
 - day 12 周日休息
 - day 13 任务以及具体安排：[第五章 栈与队列part03](https://docs.qq.com/doc/DUHNpa3F4b2dMUWJ3)
 - day 14 任务以及具体安排：[第六章 二叉树part01](https://docs.qq.com/doc/DUHRtdXZZSWFkeGdE)
-- day 15 任务以及具体安排：[第六章 二叉树part02]()
+- day 15 任务以及具体安排：[第六章 二叉树part02](https://docs.qq.com/doc/DUHN0ZVJuRmVYeWNv)
 
 
 
