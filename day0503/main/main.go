@@ -1,6 +1,12 @@
 package main
 
-import . "Code_Random_Thoughts/mypkg"
+import (
+	. "Code_Random_Thoughts/mypkg"
+	"fmt"
+	"reflect"
+	"runtime"
+	"unsafe"
+)
 
 func levelOrder(root *TreeNode) [][]int {
 	res := make([][]int, 0)
@@ -64,4 +70,34 @@ func isSymmetric(root *TreeNode) bool {
 		nodeStack = tmpStack
 	}
 	return true
+}
+
+const (
+	eightGB = 8 << 30
+)
+
+func main() {
+	// 申请八个G内存
+	p := make([]byte, eightGB)
+
+	// 显示内存占用情况
+	var m runtime.MemStats
+	runtime.ReadMemStats(&m)
+	fmt.Printf("Alloc = %v MB\n", m.Alloc/1024/1024)
+	fmt.Printf("TotalAlloc = %v MB\n", m.TotalAlloc/1024/1024)
+	fmt.Printf("Sys = %v MB\n", m.Sys/1024/1024)
+
+	// 释放内存
+	ptr := (*uintptr)(unsafe.Pointer(&p))
+	h := (*reflect.SliceHeader)(unsafe.Pointer(ptr))
+	h.Data = 0
+	h.Len = 0
+	h.Cap = 0
+	p = nil
+
+	// 显示内存占用情况
+	runtime.ReadMemStats(&m)
+	fmt.Printf("Alloc = %v MB\n", m.Alloc/1024/1024)
+	fmt.Printf("TotalAlloc = %v MB\n", m.TotalAlloc/1024/1024)
+	fmt.Printf("Sys = %v MB\n", m.Sys/1024/1024)
 }
