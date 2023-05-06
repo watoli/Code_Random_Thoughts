@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day17 (3/3)">
-      <change afterPath="$PROJECT_DIR$/Design/Prototype/Prototype.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/Prototype/Prototype_test.go" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="更新Readme">
+      <change afterPath="$PROJECT_DIR$/day0506/Day18二叉树part05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0506/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,8 @@
       <workItem from="1682495390597" duration="9365000" />
       <workItem from="1682582229201" duration="105456000" />
       <workItem from="1683267830346" duration="7584000" />
-      <workItem from="1683350475188" duration="264000" />
+      <workItem from="1683350475188" duration="339000" />
+      <workItem from="1683360598155" duration="7728000" />
     </task>
     <task id="LOCAL-00001" summary="初始化文件结构">
       <created>1681889517373</created>
@@ -407,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683274966217</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="更新Readme">
+      <created>1683350759828</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683350759828</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +455,8 @@
     <MESSAGE value="Day15 (3/3)" />
     <MESSAGE value="Day16 (3/3)" />
     <MESSAGE value="Day17 (3/3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day17 (3/3)" />
+    <MESSAGE value="更新Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新Readme" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
