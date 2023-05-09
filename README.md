@@ -21,8 +21,11 @@
 - day 15 任务以及具体安排：[第六章 二叉树part02](https://docs.qq.com/doc/DUHN0ZVJuRmVYeWNv)
 - day 16 任务以及具体安排：[第六章 二叉树part03](https://docs.qq.com/doc/DUHBQRm1aSWR4T2NK)
 - day 17 任务以及具体安排：[第六章 二叉树part04](https://docs.qq.com/doc/DUFpXY3hBZkpabWFY)
+- day 18 任务以及具体安排：[第六章 二叉树part05](https://docs.qq.com/doc/DUFFiVHl3YVlReVlr)
 - day 19 周日休息
-- day 20 任务以及具体安排：[第六章 二叉树part05](https://docs.qq.com/doc/DUGFRU2V6Z1F4alBH)
+- day 20 任务以及具体安排：[第六章 二叉树part06](https://docs.qq.com/doc/DUGFRU2V6Z1F4alBH)
+- day 21 任务以及具体安排：[第六章 二叉树part07](https://docs.qq.com/doc/DUHl2SGNvZmxqZm1X)
+
 
 ## 打卡
 [代码随想录算法训练营13期](https://docs.qq.com/sheet/DUHVQd2p3QlplZUJ0?tab=BB08J2&u=2d0f30b30f994fd9ab3ba7eaa05fb140)
