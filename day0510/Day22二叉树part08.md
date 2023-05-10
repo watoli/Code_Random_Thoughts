@@ -113,6 +113,13 @@ func insertIntoBST(root *TreeNode, val int) *TreeNode {
 ## 450.删除二叉搜索树中的节点
 1. 递归
 ```go
+func getRight(root *TreeNode) *TreeNode {
+	if root == nil || root.Right == nil {
+		return root
+	}
+	return getRight(root.Right)
+}
+
 func deleteNode(root *TreeNode, key int) *TreeNode {
 	if root == nil {
 		return nil
