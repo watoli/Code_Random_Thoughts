@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day21(3/3)">
-      <change afterPath="$PROJECT_DIR$/day0510/Day22二叉树part08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0510/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day22(3/3)">
+      <change beforePath="$PROJECT_DIR$/day0510/Day22二叉树part08.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0510/Day22二叉树part08.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +162,7 @@
       <workItem from="1682582229201" duration="105456000" />
       <workItem from="1683267830346" duration="7584000" />
       <workItem from="1683350475188" duration="339000" />
-      <workItem from="1683360598155" duration="72063000" />
+      <workItem from="1683360598155" duration="72161000" />
     </task>
     <task id="LOCAL-00001" summary="初始化文件结构">
       <created>1681889517373</created>
@@ -440,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683643418376</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Day22(3/3)">
+      <created>1683716536321</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1683716536321</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="修复自动化bug" />
     <MESSAGE value="自动化测试" />
     <MESSAGE value="Day1" />
     <MESSAGE value="自动化" />
@@ -484,7 +487,8 @@
     <MESSAGE value="Day18(5/5)" />
     <MESSAGE value="Day20(4/4)" />
     <MESSAGE value="Day21(3/3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day21(3/3)" />
+    <MESSAGE value="Day22(3/3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day22(3/3)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
