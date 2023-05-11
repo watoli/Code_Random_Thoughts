@@ -25,7 +25,6 @@ func trimBST(root *TreeNode, low int, high int) *TreeNode {
 	}
 }
 ```
-
 ##  108.将有序数组转换为二叉搜索树
 1. 递归
 ```go
