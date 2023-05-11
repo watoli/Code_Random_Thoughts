@@ -26,6 +26,7 @@
 - day 20 任务以及具体安排：[第六章 二叉树part06](https://docs.qq.com/doc/DUGFRU2V6Z1F4alBH)
 - day 21 任务以及具体安排：[第六章 二叉树part07](https://docs.qq.com/doc/DUHl2SGNvZmxqZm1X)
 - day 22 任务以及具体安排：[第六章 二叉树part08](https://docs.qq.com/doc/DUHplVUp5YnN1bnBL)
+- day 23 任务以及具体安排：[第六章 二叉树part09](https://docs.qq.com/doc/DUFBUQmxpQU1pa29C)
 
 
 ## 打卡

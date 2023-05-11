@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day22(3/3)">
-      <change beforePath="$PROJECT_DIR$/day0510/Day22二叉树part08.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0510/Day22二叉树part08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0511/Day23二叉树part03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0511/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +165,8 @@
       <workItem from="1682582229201" duration="105456000" />
       <workItem from="1683267830346" duration="7584000" />
       <workItem from="1683350475188" duration="339000" />
-      <workItem from="1683360598155" duration="72212000" />
+      <workItem from="1683360598155" duration="73042000" />
+      <workItem from="1683791110313" duration="8290000" />
     </task>
     <task id="LOCAL-00001" summary="初始化文件结构">
       <created>1681889517373</created>
@@ -451,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683716638684</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Day22(3/3)">
+      <created>1683716687333</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683716687333</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
