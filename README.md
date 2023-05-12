@@ -27,6 +27,7 @@
 - day 21 任务以及具体安排：[第六章 二叉树part07](https://docs.qq.com/doc/DUHl2SGNvZmxqZm1X)
 - day 22 任务以及具体安排：[第六章 二叉树part08](https://docs.qq.com/doc/DUHplVUp5YnN1bnBL)
 - day 23 任务以及具体安排：[第六章 二叉树part09](https://docs.qq.com/doc/DUFBUQmxpQU1pa29C)
+- day 24 任务以及具体安排：[第七章 回溯算法part01](https://docs.qq.com/doc/DUEhsb0pUUm1WT2NP)
 
 
 ## 打卡
