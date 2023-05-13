@@ -28,6 +28,7 @@
 - day 22 任务以及具体安排：[第六章 二叉树part08](https://docs.qq.com/doc/DUHplVUp5YnN1bnBL)
 - day 23 任务以及具体安排：[第六章 二叉树part09](https://docs.qq.com/doc/DUFBUQmxpQU1pa29C)
 - day 24 任务以及具体安排：[第七章 回溯算法part01](https://docs.qq.com/doc/DUEhsb0pUUm1WT2NP)
+- day 25 任务以及具体安排：[第七章 回溯算法part02](https://docs.qq.com/doc/DUExTYXVzU1BiU2Zl)
 
 
 ## 打卡
