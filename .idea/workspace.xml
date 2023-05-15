@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day24(1/1)">
-      <change afterPath="$PROJECT_DIR$/day0513/Day25回溯算法part02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0513/main/main.go" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day25(2/2)">
+      <change afterPath="$PROJECT_DIR$/day0515/Day27回溯算法part03.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -168,7 +167,7 @@
       <workItem from="1683360598155" duration="73042000" />
       <workItem from="1683791110313" duration="8751000" />
       <workItem from="1683881609187" duration="644000" />
-      <workItem from="1683884653701" duration="11197000" />
+      <workItem from="1683884653701" duration="12922000" />
     </task>
     <task id="LOCAL-00001" summary="初始化文件结构">
       <created>1681889517373</created>
@@ -478,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683881720101</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Day25(2/2)">
+      <created>1683969223156</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1683969223156</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +503,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="自动化" />
     <MESSAGE value="更新readme" />
     <MESSAGE value="day2 (2/3)" />
     <MESSAGE value="day2 (3/3)" />
@@ -522,7 +527,8 @@
     <MESSAGE value="Day22(3/3)" />
     <MESSAGE value="Day23(3/3)" />
     <MESSAGE value="Day24(1/1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day24(1/1)" />
+    <MESSAGE value="Day25(2/2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day25(2/2)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
