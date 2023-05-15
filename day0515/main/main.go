@@ -1,8 +1,10 @@
-# Day27回溯算法part03
+package main
 
-##  39. 组合总和
-1. 回溯
-```go
+import (
+	"fmt"
+	"sort"
+)
+
 func combinationSum(candidates []int, target int) [][]int {
 	sort.Ints(candidates)
 
@@ -35,10 +37,7 @@ func combinationSum(candidates []int, target int) [][]int {
 	BT(candidates, target, 0, 0)
 	return res
 }
-```
-##  40.组合总和II
-1. 回溯
-```go
+
 func combinationSum2(candidates []int, target int) [][]int {
 	sort.Ints(candidates)
 
@@ -95,10 +94,7 @@ func combinationSum2(candidates []int, target int) [][]int {
 	BT(candidates, target, 0, 0)
 	return res
 }
-```
-##  131.分割回文串
-1. 回溯
-```go
+
 func partition(s string) [][]string {
 	var ifPalindrome func(subS string) bool
 	ifPalindrome = func(subS string) bool {
@@ -144,4 +140,3 @@ func partition(s string) [][]string {
 	BT(s, 0)
 	return res
 }
-```
