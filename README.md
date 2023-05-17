@@ -32,6 +32,7 @@
 - day 26 周日休息
 - day 27 任务以及具体安排：[第七章 回溯算法part03](https://docs.qq.com/doc/DUElpbnNUR3hIbXlY)
 - day 28 任务以及具体安排：[第七章 回溯算法part04](https://docs.qq.com/doc/DUG1yVHdlWEdNYlhZ)
+- day 29 任务以及具体安排：[第七章 回溯算法part05](https://docs.qq.com/doc/DUHZYbWhwSHRCRmp3)
 
 
 ## 打卡
