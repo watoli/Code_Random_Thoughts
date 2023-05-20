@@ -35,6 +35,7 @@
 - day 29 任务以及具体安排：[第七章 回溯算法part05](https://docs.qq.com/doc/DUHZYbWhwSHRCRmp3)
 - day 30 任务以及具体安排：[第七章 回溯算法part06](https://docs.qq.com/doc/DUEdTVVhxbnJiY3BR)
 - day 31 任务以及具体安排：[第八章 贪心算法part01](https://docs.qq.com/doc/DUG1PQ1ZZY2xXY1ly)
+- day 32 任务以及具体安排：[第八章 贪心算法part02](https://docs.qq.com/doc/DUGFEdGFWeVhleFF1)
 
 
 ## 打卡
