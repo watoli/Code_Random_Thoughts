@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day31(3/3)">
-      <change afterPath="$PROJECT_DIR$/day0520/Day32贪心算法part02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0520/main/main.go" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day32(3/3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0520/Day32贪心算法part02.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0520/Day32贪心算法part02.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,14 +161,7 @@
       <workItem from="1683881609187" duration="644000" />
       <workItem from="1683884653701" duration="38743000" />
       <workItem from="1684387034086" duration="33212000" />
-      <workItem from="1684497659383" duration="8083000" />
-    </task>
-    <task id="LOCAL-00003" summary="修复自动化bug">
-      <created>1681889872895</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681889872895</updated>
+      <workItem from="1684497659383" duration="8385000" />
     </task>
     <task id="LOCAL-00004" summary="修复自动化bug">
       <created>1681890286631</created>
@@ -508,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684492644011</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Day32(3/3)">
+      <created>1684572817363</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1684572817363</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="workspace抽风" />
     <MESSAGE value="Day6(4/4)" />
     <MESSAGE value="Day7(5/5)" />
     <MESSAGE value="Day9(2/2)" />
@@ -552,7 +549,8 @@
     <MESSAGE value="Day29(3/3)" />
     <MESSAGE value="Day30(3/3)" />
     <MESSAGE value="Day31(3/3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day31(3/3)" />
+    <MESSAGE value="Day32(3/3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day32(3/3)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
