@@ -66,15 +66,17 @@ func candy(ratings []int) int {
 		return 1
 	}
 	candyS := make([]int, lenR)
-	candyS[0] = 1
+	for i := 1; i < lenR; i++ {
+		candyS[i] = 1
+	}
 	for i := 1; i < lenR; i++ {
 		if ratings[i] > ratings[i-1] {
 			candyS[i] = candyS[i-1] + 1
 		}
 	}
-	if candyS[lenR-1] == 0 {
-		candyS[lenR-1] = 1
-	}
+	//if candyS[lenR-1] == 0 {
+	//	candyS[lenR-1] = 1
+	//}
 	sumC := candyS[lenR-1]
 	for i := lenR - 2; i >= 0; i-- {
 		if ratings[i] > ratings[i+1] {
