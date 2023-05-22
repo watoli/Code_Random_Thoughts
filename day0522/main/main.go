@@ -69,14 +69,18 @@ func candy(ratings []int) int {
 	for i := 1; i < lenR; i++ {
 		candyS[i] = 1
 	}
-	for i := 1; i < lenR; i++ {
+	for i := 0; i < lenR; i++ {
 		if ratings[i] > ratings[i-1] {
 			candyS[i] = candyS[i-1] + 1
 		}
 	}
+	/*
+
+	 */
 	//if candyS[lenR-1] == 0 {
 	//	candyS[lenR-1] = 1
 	//}
+	fmt.Println(candyS)
 	sumC := candyS[lenR-1]
 	for i := lenR - 2; i >= 0; i-- {
 		if ratings[i] > ratings[i+1] {
