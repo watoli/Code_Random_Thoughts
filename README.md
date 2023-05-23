@@ -38,6 +38,7 @@
 - day 32 任务以及具体安排：[第八章 贪心算法part02](https://docs.qq.com/doc/DUGFEdGFWeVhleFF1)
 - day 33 周日休息
 - day 34 任务以及具体安排：[第八章 贪心算法part03](https://docs.qq.com/doc/DUEh5WFVlQkp1U0p4)
+- day 35 任务以及具体安排：[第八章 贪心算法part04](https://docs.qq.com/doc/DUFRWc3BGRHFXZ1pO)
 
 
 ## 打卡

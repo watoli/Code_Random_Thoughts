@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day33(3/3)">
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day34(3/3)">
+      <change afterPath="$PROJECT_DIR$/day0523/Day35贪心算法part04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0523/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0522/Day34贪心算法part03.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0522/Day34贪心算法part03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0522/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day0522/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go (2)">
+  <component name="RunManager" selected="Go 构建.go build main.go (3)">
     <configuration name="go build Code_Random_Thoughts/day0516/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Code_Random_Thoughts" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,6 +101,15 @@
       <filePath value="$PROJECT_DIR$/day0519/main/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Code_Random_Thoughts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="Code_Random_Thoughts" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day0523/main/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Code_Random_Thoughts" />
       <working_directory value="$PROJECT_DIR$" />
@@ -109,24 +119,13 @@
       <filePath value="$PROJECT_DIR$/day0513/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Observer_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Code_Random_Thoughts" />
-      <working_directory value="$PROJECT_DIR$/Design/Observer" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="Code_Random_Thoughts" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Design/Observer/Observer_test.go" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go (3)" />
         <item itemvalue="Go 构建.go build main.go (2)" />
         <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build Code_Random_Thoughts/day0516/main" />
         <item itemvalue="Go 构建.go build main.go" />
-        <item itemvalue="Go 测试.Observer_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -162,14 +161,7 @@
       <workItem from="1683881609187" duration="644000" />
       <workItem from="1683884653701" duration="38743000" />
       <workItem from="1684387034086" duration="33212000" />
-      <workItem from="1684497659383" duration="23703000" />
-    </task>
-    <task id="LOCAL-00007" summary="Day1">
-      <created>1681918442614</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681918442614</updated>
+      <workItem from="1684497659383" duration="33816000" />
     </task>
     <task id="LOCAL-00008" summary="Day1">
       <created>1681919335547</created>
@@ -507,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684767776619</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Day34(3/3)">
+      <created>1684772785273</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1684772785273</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day7(5/5)" />
     <MESSAGE value="Day9(2/2)" />
     <MESSAGE value="Day9 更新KMP" />
     <MESSAGE value="Day10 (2/2)" />
@@ -551,7 +549,8 @@
     <MESSAGE value="Day31(3/3)" />
     <MESSAGE value="Day32(3/3)" />
     <MESSAGE value="Day33(3/3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day33(3/3)" />
+    <MESSAGE value="Day34(3/3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day34(3/3)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
