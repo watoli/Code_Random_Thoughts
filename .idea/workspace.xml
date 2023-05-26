@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day36(3/3)">
-      <change afterPath="$PROJECT_DIR$/day0525/Day37贪心算法part06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0525/main/main.go" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day37(2/2)">
+      <change afterPath="$PROJECT_DIR$/day0526/Day38动态规划part01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0526/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -161,14 +161,7 @@
       <workItem from="1683881609187" duration="644000" />
       <workItem from="1683884653701" duration="38743000" />
       <workItem from="1684387034086" duration="33212000" />
-      <workItem from="1684497659383" duration="57838000" />
-    </task>
-    <task id="LOCAL-00010" summary="Day1">
-      <created>1681919765591</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1681919765591</updated>
+      <workItem from="1684497659383" duration="64423000" />
     </task>
     <task id="LOCAL-00011" summary="Day1">
       <created>1681920408294</created>
@@ -506,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684913235986</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Day37(2/2)">
+      <created>1685001482945</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1685001482945</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day10 (2/2)" />
     <MESSAGE value="Day11 (2/2)" />
     <MESSAGE value="Day13 (3/3)" />
     <MESSAGE value="Day14 (1/1)" />
@@ -550,7 +549,8 @@
     <MESSAGE value="Day34(3/3)" />
     <MESSAGE value="Day35(3/3)" />
     <MESSAGE value="Day36(3/3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day36(3/3)" />
+    <MESSAGE value="Day37(2/2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day37(2/2)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
