@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day37(2/2)">
-      <change afterPath="$PROJECT_DIR$/day0526/Day38动态规划part01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0526/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0527/Day39动态算法part02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0527/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -161,14 +161,8 @@
       <workItem from="1683881609187" duration="644000" />
       <workItem from="1683884653701" duration="38743000" />
       <workItem from="1684387034086" duration="33212000" />
-      <workItem from="1684497659383" duration="64423000" />
-    </task>
-    <task id="LOCAL-00011" summary="Day1">
-      <created>1681920408294</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1681920408294</updated>
+      <workItem from="1684497659383" duration="65332000" />
+      <workItem from="1685166068842" duration="4681000" />
     </task>
     <task id="LOCAL-00012" summary="自动化">
       <created>1681920602944</created>
@@ -506,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685001482945</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Day37(2/2)">
+      <created>1685089200840</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1685089200840</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

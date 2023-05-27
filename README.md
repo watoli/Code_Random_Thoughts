@@ -42,6 +42,7 @@
 - day 36 任务以及具体安排：[第八章 贪心算法part05](https://docs.qq.com/doc/DUERGbnhhRkFRVENZ)
 - day 37 任务以及具体安排：[第八章 贪心算法part06](https://docs.qq.com/doc/DUFVRd3p5SHFMSExQ)
 - day 38 任务以及具体安排：[第九章 动态算法part01](https://docs.qq.com/doc/DUGNUdVpoT0VJR01l)
+- day 39 任务以及具体安排：[第九章 动态算法part02](https://docs.qq.com/doc/DUE55cVJ5WkNoREhS)
 
 ## 打卡
 [代码随想录算法训练营13期](https://docs.qq.com/sheet/DUHVQd2p3QlplZUJ0?tab=BB08J2&u=2d0f30b30f994fd9ab3ba7eaa05fb140)
