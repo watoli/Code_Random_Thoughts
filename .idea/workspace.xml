@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day39(2/2)">
-      <change afterPath="$PROJECT_DIR$/day0529/Day41动态算法part03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0529/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0530/Day42动态算法part04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0530/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0531/Day43动态算法part05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0531/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0530/Day42动态算法part04.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0530/Day42动态算法part04.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0530/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day0530/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +169,7 @@
       <workItem from="1683884653701" duration="38743000" />
       <workItem from="1684387034086" duration="33212000" />
       <workItem from="1684497659383" duration="65332000" />
-      <workItem from="1685166068842" duration="15844000" />
-    </task>
-    <task id="LOCAL-00013" summary="自动化">
-      <created>1681920787051</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1681920787051</updated>
+      <workItem from="1685166068842" duration="31340000" />
     </task>
     <task id="LOCAL-00014" summary="更新readme">
       <created>1681995413084</created>
@@ -514,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685170868015</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Day39(2/2)">
+      <created>1685458475997</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1685458475997</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

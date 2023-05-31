@@ -54,6 +54,33 @@ func bagProblem(weight, value []int, bagWeight int) int {
 	}
 	return dp[bagWeight]
 }
+
+func canPartition(nums []int) bool {
+	sum := 0
+	numsL := len(nums)
+	if numsL == 1 {
+		return false
+	}
+	for i := 0; i < numsL; i++ {
+		sum += nums[i]
+	}
+	if sum%2 != 0 {
+		return false
+	} else {
+		sum /= 2
+	}
+	dp := make([]int, sum+1)
+	for i := 0; i < numsL; i++ {
+		for j := sum; j >= nums[i]; j-- {
+			dp[j] = max(dp[j], dp[j-nums[i]]+nums[i])
+		}
+	}
+	if dp[sum] == sum {
+		return true
+	}
+	return false
+}
+
 func main() {
 	weight := []int{1, 3, 4}
 	value := []int{15, 20, 30}
