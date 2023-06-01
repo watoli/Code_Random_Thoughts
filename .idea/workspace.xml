@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day39(2/2)">
-      <change afterPath="$PROJECT_DIR$/day0531/Day43动态算法part05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0531/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0601/Day44动态算法part06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0601/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0530/Day42动态算法part04.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0530/Day42动态算法part04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0530/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day0530/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,33 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "G:/Study/2022Autumn/Go/Code_Random_Thoughts/day0530",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Study/2022Autumn/Go/Code_Random_Thoughts/day0530&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoLibrariesConfigurableProvider&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0530" />
@@ -80,16 +78,7 @@
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0529\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go (4)">
-    <configuration name="go build Code_Random_Thoughts/day0516/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Code_Random_Thoughts" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="Code_Random_Thoughts/day0516/main" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day0516/main/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build main.go">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Code_Random_Thoughts" />
       <working_directory value="$PROJECT_DIR$" />
@@ -126,13 +115,22 @@
       <filePath value="$PROJECT_DIR$/day0525/main/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Code_Random_Thoughts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="Code_Random_Thoughts" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day0601/main/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build main.go (4)" />
         <item itemvalue="Go 构建.go build main.go (3)" />
         <item itemvalue="Go 构建.go build main.go (2)" />
         <item itemvalue="Go 构建.go build main.go (1)" />
-        <item itemvalue="Go 构建.go build Code_Random_Thoughts/day0516/main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,14 +167,8 @@
       <workItem from="1683884653701" duration="38743000" />
       <workItem from="1684387034086" duration="33212000" />
       <workItem from="1684497659383" duration="65332000" />
-      <workItem from="1685166068842" duration="31340000" />
-    </task>
-    <task id="LOCAL-00014" summary="更新readme">
-      <created>1681995413084</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1681995413084</updated>
+      <workItem from="1685166068842" duration="31687000" />
+      <workItem from="1685623640974" duration="3153000" />
     </task>
     <task id="LOCAL-00015" summary="day2 (2/3)">
       <created>1682000277013</created>
@@ -514,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685458475997</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Day39(2/2)">
+      <created>1685540125361</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1685540125361</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,6 +561,17 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/day0601/main/main.go</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

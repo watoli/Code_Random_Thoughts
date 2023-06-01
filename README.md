@@ -47,6 +47,8 @@
 - day 41 任务以及具体安排：[第九章 动态算法part03](https://docs.qq.com/doc/DUFhIUXRFYnVGUkFp)
 - day 42 任务以及具体安排：[第九章 动态算法part04](https://docs.qq.com/doc/DUGdkaEl5dFN1QnBl)
 - day 43 任务以及具体安排：[第九章 动态算法part05](https://docs.qq.com/doc/DUEVMRHZOemN5S2Vm)
+- day 44 任务以及具体安排：[第九章 动态算法part06](https://docs.qq.com/doc/DUHBSRVRUc0Vsck1z)
+- day 45 任务以及具体安排：[第九章 动态算法part07](https://docs.qq.com/doc/DUFVEbWRyZlpjaGty)
 
 ## 打卡
 [代码随想录算法训练营13期](https://docs.qq.com/sheet/DUHVQd2p3QlplZUJ0?tab=BB08J2&u=2d0f30b30f994fd9ab3ba7eaa05fb140)
