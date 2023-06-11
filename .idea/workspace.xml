@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day39(2/2)">
-      <change afterPath="$PROJECT_DIR$/day0602/Day45动态算法part07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0602/main/main.go" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day45(2/2)">
+      <change afterPath="$PROJECT_DIR$/day0603/Day46动态算法part08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0603/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0605/Day48动态规划part09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0605/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0606/Day49动态规划part10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0606/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0607/Day50动态规划part11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0607/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0608/Day51动态规划part12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0608/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0609/Day52动态规划part13.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0609/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0610/Day53动态规划part14.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0610/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,14 +180,8 @@
       <workItem from="1684387034086" duration="33212000" />
       <workItem from="1684497659383" duration="65332000" />
       <workItem from="1685166068842" duration="31687000" />
-      <workItem from="1685623640974" duration="9116000" />
-    </task>
-    <task id="LOCAL-00016" summary="day2 (3/3)">
-      <created>1682008658283</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1682008658283</updated>
+      <workItem from="1685623640974" duration="9335000" />
+      <workItem from="1686142525571" duration="46724000" />
     </task>
     <task id="LOCAL-00017" summary="day3">
       <created>1682094346556</created>
@@ -512,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685632831671</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Day45(2/2)">
+      <created>1685678664493</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1685678664493</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day13 (3/3)" />
     <MESSAGE value="Day14 (1/1)" />
     <MESSAGE value="Day15 (3/3)" />
     <MESSAGE value="Day16 (3/3)" />
@@ -556,7 +569,8 @@
     <MESSAGE value="Day36(3/3)" />
     <MESSAGE value="Day37(2/2)" />
     <MESSAGE value="Day39(2/2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day39(2/2)" />
+    <MESSAGE value="Day45(2/2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day45(2/2)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

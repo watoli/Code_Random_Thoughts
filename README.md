@@ -49,6 +49,14 @@
 - day 43 任务以及具体安排：[第九章 动态算法part05](https://docs.qq.com/doc/DUEVMRHZOemN5S2Vm)
 - day 44 任务以及具体安排：[第九章 动态算法part06](https://docs.qq.com/doc/DUHBSRVRUc0Vsck1z)
 - day 45 任务以及具体安排：[第九章 动态算法part07](https://docs.qq.com/doc/DUFVEbWRyZlpjaGty)
+- day 46 任务以及具体安排：[第九章 动态算法part08](https://docs.qq.com/doc/DUHhuT2RTTEtBeGhX)
+- day 47 周日休息
+- day 48 任务以及具体安排：[第九章 动态算法part09](https://docs.qq.com/doc/DUGd5ZkNZS1NsYkFk)
+- day 49 任务以及具体安排：[第九章 动态算法part10](https://docs.qq.com/doc/DUFhzV29ZSEtFVkto)
+- day 50 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUEtsRGRXT2F2Y0FR)
+- day 51 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUGt6dWVUUFhHUlpH)
+- day 52 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUFJzanBWVXNVWW1N)
+- day 53 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUEVBcnBldHBKWk12)
 
 ## 打卡
 [代码随想录算法训练营13期](https://docs.qq.com/sheet/DUHVQd2p3QlplZUJ0?tab=BB08J2&u=2d0f30b30f994fd9ab3ba7eaa05fb140)
