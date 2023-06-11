@@ -54,5 +54,24 @@ func robII(nums []int) int {
 ```
 ## 337.打家劫舍III
 ```go
+func robIII(root *TreeNode) int {
+	res := make([]int, 2)
+	var dfs func(root *TreeNode) []int
+	dfs = func(root *TreeNode) []int {
+		if root == nil {
+			return []int{0, 0}
+		}
+		left := make([]int, 2)
+		right := make([]int, 2)
+		center := make([]int, 2)
 
+		left = dfs(root.Left)
+		right = dfs(root.Right)
+		center[0] = root.Val + left[1] + right[1]
+		center[1] = max(left[0], left[1]) + max(right[0], right[1])
+		return center
+	}
+	res = dfs(root)
+	return max(res[0], res[1])
+}
 ```
