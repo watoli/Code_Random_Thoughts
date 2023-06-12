@@ -57,6 +57,8 @@
 - day 51 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUGt6dWVUUFhHUlpH)
 - day 52 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUFJzanBWVXNVWW1N)
 - day 53 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUEVBcnBldHBKWk12)
+- day 54 周日休息
+- day 55 任务以及具体安排：[第九章 动态算法part11](https://docs.qq.com/doc/DUGtwYWlEZVZSVXdF)
 
 ## 打卡
 [代码随想录算法训练营13期](https://docs.qq.com/sheet/DUHVQd2p3QlplZUJ0?tab=BB08J2&u=2d0f30b30f994fd9ab3ba7eaa05fb140)
