@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day55(2/2)">
-      <change afterPath="$PROJECT_DIR$/day0613/Day56动态规划part16.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0613/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0614/Day57动态规划part17.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0614/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0615/Day58单调栈part01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0615/main/main.go" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day61(0/0)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0612/Day55动态规划part15.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0612/Day55动态规划part15.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0612/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day0612/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0618/Day61 总结篇.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0618/Day61 总结篇.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
     "configurable..is.expanded": "false",
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "G:/Study/2022Autumn/Go/Code_Random_Thoughts/day0614",
+    "last_opened_file_path": "G:/Study/2022Autumn/Go/Code_Random_Thoughts/day0617",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +68,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0617" />
+      <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0616" />
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0614" />
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0530" />
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts" />
@@ -179,14 +173,7 @@
       <workItem from="1686142525571" duration="49173000" />
       <workItem from="1686540949923" duration="8850000" />
       <workItem from="1686737114707" duration="611000" />
-      <workItem from="1686920222346" duration="20016000" />
-    </task>
-    <task id="LOCAL-00020" summary="Day6(4/4)">
-      <created>1682359319221</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1682359319221</updated>
+      <workItem from="1686920222346" duration="20268000" />
     </task>
     <task id="LOCAL-00021" summary="Day6(4/4)">
       <created>1682359384258</created>
@@ -524,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686551261373</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Day61(0/0)">
+      <created>1687079555196</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1687079555196</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +537,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day16 (3/3)" />
     <MESSAGE value="Day17 (3/3)" />
     <MESSAGE value="更新Readme" />
     <MESSAGE value="Day18(5/5)" />
@@ -568,7 +561,8 @@
     <MESSAGE value="Day45(2/2)" />
     <MESSAGE value="Day53(3/3)" />
     <MESSAGE value="Day55(2/2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day55(2/2)" />
+    <MESSAGE value="Day61(0/0)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day61(0/0)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
