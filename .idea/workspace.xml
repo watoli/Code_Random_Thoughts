@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day61(0/0)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0618/Day61 总结篇.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0618/Day61 总结篇.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,14 +173,7 @@
       <workItem from="1686142525571" duration="49173000" />
       <workItem from="1686540949923" duration="8850000" />
       <workItem from="1686737114707" duration="611000" />
-      <workItem from="1686920222346" duration="20398000" />
-    </task>
-    <task id="LOCAL-00023" summary="Day9(2/2)">
-      <created>1682650180693</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1682650180693</updated>
+      <workItem from="1686920222346" duration="21139000" />
     </task>
     <task id="LOCAL-00024" summary="Day9 更新KMP">
       <created>1682676659736</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687079738465</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Day61(0/0)">
+      <created>1687079813353</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1687079813353</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
