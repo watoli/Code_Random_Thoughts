@@ -21,6 +21,18 @@ func isSubsequence(s string, t string) bool {
 	return false
 }
 
+/*
+     b a g
+  [1 0 0 0]
+b [1 1 0 0]
+a [1 1 1 0]
+b [1 2 1 0]
+g [1 2 1 1]
+b [1 3 1 1]
+a [1 3 4 1]
+g [1 3 4 5]
+*/
+
 func numDistinct(s string, t string) int {
 	dp := make([][]int, len(s)+1)
 	for i := 0; i < len(dp); i++ {
@@ -33,7 +45,7 @@ func numDistinct(s string, t string) int {
 			if s[i-1] == t[j-1] {
 				dp[i][j] = dp[i-1][j-1] + dp[i-1][j]
 			} else {
-				dp[i][j] = dp[i][j-1]
+				dp[i][j] = dp[i-1][j]
 			}
 		}
 	}

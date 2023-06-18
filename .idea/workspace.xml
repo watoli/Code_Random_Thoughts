@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day53(3/3)">
-      <change afterPath="$PROJECT_DIR$/day0612/Day55动态规划part15.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0612/main/main.go" afterDir="false" />
+    <list default="true" id="1f1305f1-da3c-481a-b8e5-b64110cecc7c" name="Changes" comment="Day55(2/2)">
+      <change afterPath="$PROJECT_DIR$/day0613/Day56动态规划part16.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0613/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0614/Day57动态规划part17.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0614/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0615/Day58单调栈part01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0615/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0612/Day55动态规划part15.md" beforeDir="false" afterPath="$PROJECT_DIR$/day0612/Day55动态规划part15.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0612/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day0612/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Study/2022Autumn/Go/Code_Random_Thoughts/day0530&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoLibrariesConfigurableProvider&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "false",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "G:/Study/2022Autumn/Go/Code_Random_Thoughts/day0614",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0614" />
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts\day0530" />
       <recent name="G:\Study\2022Autumn\Go\Code_Random_Thoughts" />
     </key>
@@ -170,14 +177,9 @@
       <workItem from="1685166068842" duration="31687000" />
       <workItem from="1685623640974" duration="9335000" />
       <workItem from="1686142525571" duration="49173000" />
-      <workItem from="1686540949923" duration="6706000" />
-    </task>
-    <task id="LOCAL-00019" summary="workspace抽风">
-      <created>1682174918757</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1682174918757</updated>
+      <workItem from="1686540949923" duration="8850000" />
+      <workItem from="1686737114707" duration="611000" />
+      <workItem from="1686920222346" duration="20016000" />
     </task>
     <task id="LOCAL-00020" summary="Day6(4/4)">
       <created>1682359319221</created>
@@ -515,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686460609840</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Day55(2/2)">
+      <created>1686551261372</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1686551261373</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day15 (3/3)" />
     <MESSAGE value="Day16 (3/3)" />
     <MESSAGE value="Day17 (3/3)" />
     <MESSAGE value="更新Readme" />
@@ -559,7 +567,8 @@
     <MESSAGE value="Day39(2/2)" />
     <MESSAGE value="Day45(2/2)" />
     <MESSAGE value="Day53(3/3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day53(3/3)" />
+    <MESSAGE value="Day55(2/2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day55(2/2)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
