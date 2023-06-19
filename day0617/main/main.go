@@ -51,20 +51,21 @@ func max(m, n int) int {
 }
 
 func largestRectangleArea(heights []int) int {
+	heights = append([]int{0}, append(heights, 0)...)
 	lenH := len(heights)
 	numS := Stack{nums: []int{}}
-	left := 0
 	mid := 0
 	res := 0
 	numS.Push(0)
 	for i := 0; i < lenH; i++ {
-		mid = heights[i]
 		if heights[i] < heights[numS.Top()] {
 			for !numS.IsEmpty() && heights[i] < heights[numS.Top()] {
-				left = heights[numS.Top()]
-				res = max(res, min())
+				mid = heights[numS.Top()]
+				numS.Pop()
+				res = max(res, mid*(i-numS.Top()-1))
 			}
 		}
 		numS.Push(i)
 	}
+	return res
 }
